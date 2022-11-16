@@ -79,6 +79,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RightHandJoystick",
+                    "type": "Value",
+                    "id": "773f31d5-46c5-4c3c-bbc9-706b075e71e9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -112,6 +121,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "RightHandTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a6b1b98-e694-4cf3-9e96-35bc0c3ab3c2",
+                    "path": "<XRController>{RightHand}/joystick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandJoystick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
